@@ -12,7 +12,7 @@
     'headline'         => get_the_title(),
     'image'            => get_the_post_thumbnail_url(),
     'datePublished'    => get_the_date('c'),
-    'dateModified'     => get_the_modified_date(),
+    'dateModified'     => get_the_modified_date('c'),
     'author'           => array(
         '@type'        => "Person",
         'name'         => get_the_author(),
