@@ -1,6 +1,7 @@
 <?php
     global $articleSchema;
-    if(count($articleSchemaCount > 0)) {
+    global $articleSchemaCount;
+    if($articleSchemaCount > 0) {
     // DO STUFF
         if (!function_exists('wp_generate_faq_schema')){
             function wp_generate_faq_schema ($articleSchema) {
